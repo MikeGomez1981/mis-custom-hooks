@@ -17,7 +17,7 @@ export const useCounter = ( initialState=10 ) => {//initialState se coge de abaj
         setState(initialState);
     } ;
     return{
-        counter,//valor inicial(initialState) 10
+        counter,//valor inicial (initialState) = 10
         increment,
         decrement,
         reset
